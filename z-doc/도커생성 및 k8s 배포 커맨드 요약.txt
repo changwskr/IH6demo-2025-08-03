@@ -1,0 +1,5 @@
+
+бс dockerfile
+
+
+docker build -t my-tomcat-app .
