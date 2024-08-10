@@ -10,7 +10,7 @@
     ////////////////////////////////////
     docker exec -it tomom /bin/bash
     mv webapps webapps2
-    mv webapps.dist/ webapps
+    mv webapps.dist/* webapps
     exit
 
     # pwd
