@@ -31,3 +31,4 @@ kubectl delete deployment tomcat-deployment
 kubectl get service
 kubectl delete service tomcat-service
 
+무엇을 가장 좋아하는 것은 무엇을 위하여 봅시다.
