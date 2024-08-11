@@ -76,10 +76,17 @@
       <artifactId>ojdbc11</artifactId>
       <version>21.9.0.0</version>
     </dependency>
+    <dependency>
+      <groupId>org.sonarsource.scanner.maven</groupId>
+      <artifactId>sonar-maven-plugin</artifactId>
+      <version>4.0.0.4121</version>
+    </dependency>
+
   </dependencies>
 
   <build>
     <plugins>
+
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
@@ -91,6 +98,11 @@
             </exclude>
           </excludes>
         </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version> 3.9.1.2184</version>
       </plugin>
     </plugins>
   </build>
